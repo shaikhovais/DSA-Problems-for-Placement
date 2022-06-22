@@ -20,9 +20,9 @@ public class MaximumSubarray {
 
     public static int getMaxSubArray(int[] arr) {
 
-        //Create two variables : one will store sum of the current subarray and other will store maximum in the whole array
+        //Create two variables : One will store sum of the current subarray and the other will store maximum in the whole array
 
-        //Taking MIN_VALUE so that it gets upadted even when negative numbers are present in array
+        //Taking MIN_VALUE so that it gets updated even when negative numbers are present in array
         int maxSoFar = Integer.MIN_VALUE;
         int maxEndingHere = 0;
         
