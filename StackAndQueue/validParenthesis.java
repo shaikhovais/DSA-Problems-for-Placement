@@ -26,7 +26,7 @@ class Solution {
             }
         }
         
-        //Once we comeout of loop, check if stack is empty. If it's empty then the parenthesis were valid and return true
+        //Once we come out of loop, check if stack is empty. If it's empty then the parenthesis were valid and return true
         if(st.isEmpty()) {
             return true;
         } else {
