@@ -32,4 +32,4 @@ class Solution {
 }
 
 //Time Complexity: O(n), where n is the total number of nodes in the binary tree
-//Space Complexity: O(1), No extra space is used so space complexity is constant
+//Space Complexity: O(h) due to recursive call stack, where h is the height of the tree
