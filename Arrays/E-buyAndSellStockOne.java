@@ -1,7 +1,7 @@
 
 //https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
-public class Solution {
+class Solution {
     public int maxProfit(int[] prices) {
         //This will store the maximum profit
         int profit = 0;

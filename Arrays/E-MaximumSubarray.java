@@ -3,9 +3,9 @@
 
 class Solution {
     public int maxSubArray(int[] arr) {
-        //Create two variables : one will store sum of the current subarray and other will store maximum in the whole array
+        //Create two variables : one will store sum of the current subArray and other will store maximum in the whole array
 
-        //Taking MIN_VALUE so that it gets upadted even when negative numbers are present in array
+        //Taking MIN_VALUE so that it gets updated even when negative numbers are present in array
         int maxSoFar = Integer.MIN_VALUE;
         int maxEndingHere = 0;
         
@@ -14,7 +14,7 @@ class Solution {
         for(int i = 0; i < length; i++) {
             maxEndingHere += arr[i];
             
-            //If sum of current subarray is greater then we update maxSoFar
+            //If sum of current subArray is greater then we update maxSoFar
             if(maxEndingHere > maxSoFar) {
                 maxSoFar = maxEndingHere;
             }

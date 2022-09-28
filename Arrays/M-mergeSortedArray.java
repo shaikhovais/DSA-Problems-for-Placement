@@ -13,9 +13,13 @@ class Solution {
         while(pointerTwo >= 0)  {
             //We compare and put the greater number in our array nums1 and then decrement both the pointers
             if(pointerOne >= 0 && nums1[pointerOne] >= nums2[pointerTwo]) {
-                nums1[pointerInArray--] = nums1[pointerOne--];
+                nums1[pointerInArray] = nums1[pointerOne];
+                pointerInArray--;
+                pointerOne--;
             } else {
-                nums1[pointerInArray--] = nums2[pointerTwo--];
+                nums1[pointerInArray] = nums2[pointerTwo];
+                pointerInArray--;
+                pointerTwo--;
             }
         }
     }
