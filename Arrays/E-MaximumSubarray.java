@@ -1,6 +1,8 @@
 
 //https://leetcode.com/problems/maximum-subarray/
 
+// <--------- Kadane Algorithm ---------->
+
 class Solution {
     public int maxSubArray(int[] arr) {
         //Create two variables : one will store sum of the current subArray and other will store maximum in the whole array
